@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Predictive Sales Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Predictive Sales Dashboard</h1>
+  <form id="data-form">
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+    <label for="sales">Sales:</label>
+    <input type="number" id="sales" name="sales" required>
+    <button type="submit">Submit</button>
+  </form>
+  <canvas id="sales-chart"></canvas>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
